@@ -17,6 +17,10 @@ void allocateMatrix(int ***matrix, int size)  //crea una matriz en la memoria
 
 
 void fillMatrix(int **matrix, int size) { // esto funciona para llenar   la matriz con 1s o 0s
+    for  (int i = 0; i < size; i++) {
+         for (int j = 0; j < size; j++) { // en este casi i = filas y j = columnas
+         }
+    }
 }
 
 void printMatrix(int **matrix, int size) {  // para  imprimir la matriz

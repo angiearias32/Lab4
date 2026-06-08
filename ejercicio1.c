@@ -87,6 +87,8 @@ int main(void) { // funcion principal que coordina todo
 
     printf("El tamaño de la secuencia de 1s mas grande es: %d\n", largestLine);
 
+    freeMatrix(matrix, size);
+
     return 0;
 
 }
